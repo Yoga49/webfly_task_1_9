@@ -1,0 +1,571 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+ul,ol,li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	margin: 0 auto;
+	width: 1280px;
+	overflow: auto;
+}
+/*导航栏*/
+.nav-bar {
+	position: static;
+	width: 1280px;
+	height: 56px;
+	background-color: #2389C0;
+	border-bottom: 1px solid #4A9FCA;
+	border-right: 1px solid #4A9FCA;
+}
+.nav-bar .logo {
+	margin-top: 10px;
+	margin-left: 50px;
+	float: left;
+	width: 36px;
+	height: 36px;
+}
+.float-l {float: left;}
+.float-r {float: right;}
+.clearfix:after {
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.mail-box {
+	margin-top: 20px;
+	margin-right: 92px;
+	width: 28px;
+	height: 19px;
+}
+.user {
+	margin-top: 20px;
+	margin-right: 3px;
+	width: 15px;
+	height: 16px;
+}
+.search-box {
+	margin-top: 14px;
+	margin-right: 21px;
+	width: 313px;
+	height: 28px;
+}
+.search-box .search-input{
+	border-style: none;
+	border-radius: 14px;
+	background: #fff url(images/search.png) no-repeat 5% 50%;
+	line-height: 28px;
+}
+.search-box .search-input:active {border-style: none;}
+/*侧栏*/
+.side-bar .text {font-size: 12px;}
+.side-bar {
+	width: 260px;
+	height: 1213px;
+	background-color: #2B2F3E;
+	font-size: 12px;
+	color: #6D8095;
+}
+.user-box {
+	width: 100%;
+	height: 148px;
+}
+.user-box span {font-size: 16px;}
+.profile img {
+	margin-top: 17px;
+	margin-left: 45px;
+	border-radius: 50%;
+}
+.profile span {
+	margin-top: 39px;
+	margin-left: 18px;
+	color: #F6F5F4;
+}
+.user-info i,.text-left,.text-right {margin-top: 24px;}
+.text-left {margin-left: 63px;}
+.text-right {margin-left: 30px;}
+.user-info i {
+	margin-left: 31px;
+	width: 2px;
+	height: 29px;
+	background-color: #323647;
+}
+.active-menu {
+	width: 100%;
+	height: 191px;
+	background-color: #393E4E;
+	border: 1px solid #2E3241;
+}
+.menu-list {margin-left: 45px;}
+.puzzle,.outer-ul {margin-top: 14px;}
+.menu img {margin-right: 12px;}
+.menu li {padding-bottom: 15px;}
+.subtitle {color: #ECECEF;}
+img.document,.document img {margin-right: 3px;}
+.list-bottom {margin-top: 16px;}
+.list-bottom li {height: 49px;}
+/*主页面*/
+.content {
+	width: 1020px;
+	height: 1211px;
+	background-color: #EEEEED;
+	overflow: hidden;
+	font-size: 12px;
+	color: #AAAAA9;
+}
+.nav-path {
+	width: 100%;
+	height: 30px;
+	background-color: #fff;
+}
+.nav-path div {
+	padding-top: 9px;
+	padding-left: 29px;
+}
+.nav-path em {color: #6898C2;}
+.box {
+	margin: 0 auto;
+	width: 890px;
+}
+.query-box {
+	width: 888px;
+	margin-top: 19px;
+	height: 84px;
+	background-color: #fff;
+	border: 1px solid #DCDDDF;
+}
+.query-box-edge {
+	width: 188px;
+	height: 100%;
+}
+.query-box-left {
+	width: 218px;
+	height: 100%;
+}
+.query-box-right {
+	width: 294px;
+	height: 100%;
+}
+.select-box {
+	margin-top: 16px;
+	margin-left: 16px;
+	height: 26px;
+	border: 1px solid #CACBCB;
+}
+.query-text {
+	margin-top: 16px;
+	line-height: 26px;
+}
+.query-box-left img {
+	margin-top: 23px;
+	margin-right: 30px;
+}
+.query-box-right .date.select-box {
+	padding-left: 7px;
+	width: 119px;
+	height:24px;
+	line-height: 26px;
+	color: #323232;
+}
+.query-box-edge .query-text {margin-left: 28px;}
+.query-text.saler,.query-text.number,.number + select,.dealed + select,.saler +select {margin-top: 4px;}
+.query-box-left select,.dealed + select {width: 119px;}
+.select-item-one {width: 71px;}
+.query-text.time-consume {margin-left: 15px;}
+.time-consume + select,.dealed + select {margin-left: 0;}
+.dealed {margin: 4px 14px;}
+.query-box-edge button {margin: 30px auto 30px 28px;}
+.search-btn {
+	width: 49px;
+	height: 24px;
+	color: #fff;
+	background-color: #388AC1;
+	border: 1px solid #5DA0CD;
+}
+.query-history {
+	margin-top: 8px;
+	width: 891px;
+	height: 65px;
+	overflow: hidden;
+}
+.item-box {
+	width: 110px;
+	height: 64px;
+	border-left: 1px solid #DDDEE0;
+	border-top: 1px solid #DDDEE0;
+	background-color: #fff;
+	margin-right: 4px;
+	font: normal 12px "微软雅黑";
+	color: #323232;
+}
+.nav-btn {
+	position: relative;
+	width: 30px;
+}
+.nav-btn img {
+	margin:auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+.active-box {border-top: 2px solid #4388C8;}
+.time {
+	margin-top: 14px;
+	margin-left: 28px;
+}
+.price {
+	margin-left: 26px;
+	font-size: 21px;
+	color: #EB6400;
+}
+.switch-date {
+	width: 130px;
+	margin-right: 0;
+}
+.switch-date img {
+	margin-top: 16px;
+	margin-left: 18px;
+	vertical-align: middle;
+}
+.switch-date span {
+	margin-top: 28px;
+	margin-right: 20px;
+}
+/*统计*/
+.description {
+	margin-top: 22px;
+	color: #323232;
+}
+.statistic {
+	margin-top: 4px;
+	width: 891px;
+	height: 71px;
+	overflow: hidden;
+}
+.statistic .item-box {
+	margin-right: 28px;
+	width: 196px;
+	height: 69px;
+	border: 1px solid #D2D4D7;
+	border-left: 4px solid #43B29D;
+}
+.statistic .second {
+	border-left: 4px solid #388AC1;
+}
+.statistic .third {
+	border-left: 4px solid #CF4A36;
+}
+.statistic .last {
+	margin-right: 0;
+	border-left: 4px solid #E2CD46;
+}
+.item-box .left {
+	width: 50%;
+}
+.item-box .numbers {
+	margin-top: 16px;
+	margin-left: 8px;
+	width: 40px;
+}
+.item-box .text {
+	margin-left: 8px;
+	margin-top: 10px;
+	width: 40%;
+	color: #AAAAA9;
+	font-size: 10px;
+	line-height: 10PX;
+}
+.brick {
+	margin-top: 11px;
+	margin-right: 14px;
+	width: 59px;
+	height: 45px;
+	border: 1px solid #D1ECE7;
+	background-color: #44B29E;
+}
+.second .brick {
+	border: 1px solid #5DA0CD;
+	background-color: #388BC2;
+}
+.third .brick {
+	border: 1px solid #F3D3CD;
+	background-color: #CF4A36;
+}
+.last .brick {
+	border: 1px solid #F8F3D1;
+	background-color: #E2CD47;
+}
+.project {
+	margin-top: 12px;
+	width: 891px;
+	height: 360px;
+	background-color: #EEEEED;
+}
+.project .block {
+	height: 360px;
+	background-color: #fff;
+	border: 1px solid #C7CACE;
+	border-radius: 5px;
+}
+.block-one {
+	width: 532px;
+}
+.block-two {
+	width: 332px;
+}
+.thead {
+	width: 100%;
+	height: 40px;
+	background-color: #F4F5F7;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 1px solid #C7CACE;
+}
+.thead div {
+	padding-top: 12px;
+	padding-left: 10px;
+}
+table {
+	width:100%;
+	border-collapse:collapse;
+	font-size: 12px;
+	color: #221814;
+}
+/*材料板报*/
+.material-broad .canvas {
+	margin: 0 auto;
+	margin-top: 12px;
+	width: 491px;
+	height: 279px;
+}
+.material-broad .program {
+	width: 100%;
+	height: 26px;
+}
+.material-broad .program-box {
+	margin-right: 4px;
+	width: 81px;
+	height: 100%;
+	background-color: #EDEDEF;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	text-align: center;
+}
+.material-broad .active {
+	background-color: #fff;
+	border:1px solid #CECECF;
+	border-bottom: none;
+}
+.material-broad .table {
+	width: 100%;
+	height: 252px;
+	border:1px solid #CECECF;
+	border-radius: 2px;
+}
+.material-broad .text {
+	margin-top: 7px;
+}
+.material-broad table {
+	margin: 0 auto;
+	margin-top: 28px;
+	width: 401px;
+	height: 184px;
+}
+.material-broad table td {
+	width: 100px;
+	height: 28px;
+}
+.material-broad table td.active {background-color: #F3F5F6;}
+/*项目报表三*/
+.report {
+	margin: 0 auto;
+	margin-top: 17px;
+	width: 280px;
+	height: 261px;
+}
+.report .text {
+	margin-left: 16px;
+	line-height: 20px;
+}
+.report .title {
+	color: #535353;
+}
+.report .price-box,.report .responsor-box {
+	margin-top: 6px;
+	width: 94px;
+	height: 43px;
+	border:1px solid #CECECF;
+	border-left: none;
+}
+.report .responsor-box {
+	width: 185px;
+	border-right: none;
+}
+.report .detail {
+	height: 145px;
+	border-bottom: 1px solid #CECECF;
+}
+.report input[type="checkbox"] {
+	margin-top: 5px;
+	vertical-align: bottom;
+}
+.report span+button {
+	float: right;
+	margin-top: 5px;
+}
+/*日历*/
+.calendar .convas {
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 310px;
+	height: 288px;
+	overflow: hidden;
+}
+.calendar .pick-date {
+	margin: 0 auto;
+	width: 308px;
+	height: 32px;
+}
+.calendar select,.return {
+	margin-right: 6px;
+	height: 23px;
+	width: 64px;
+	border:1px solid #CECECF;
+	color: #535353;
+	font-size: 12px;
+	text-align: center;
+}
+.calendar select.middle {
+	width: 86px;
+}
+.calendar select.select-right {
+	width: 76px;
+}
+.calendar .return {
+	width: 62px;
+	height: 21px;
+	margin-right: 0;
+	line-height: 20px;
+}
+.calendar .table {
+	width: 310px;
+	/*height: 256px;*/
+	height: 227px;
+}
+.calendar .week {
+	/*margin: 0 auto;*/
+	width: 310px;
+	height: 27px;
+	border-top: 1px solid #A9CFEC;
+	border-bottom: 1px solid #CECECF;
+}
+.calendar .week li {
+	float: left;
+	margin-left: 2px;
+	width: 42px;
+	height: 29px;
+	list-style: none;
+	text-align: center;
+	font-size: 12px;
+	line-height: 27px;
+	color: #535353;
+}
+.calendar table {
+	margin: 0 auto;
+	width: 298px;
+	height: 100%;
+	border-collapse: separate;
+	font-size: 12px;
+}
+.calendar table tr th {
+	height: 29px;
+	border-collapse: collapse;
+	border-top: 1px solid #A9CFEC;
+	border-bottom: 1px solid #CECECF;
+}
+.calendar table td, .brand-broad table th {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	border:1px;
+}
+.calendar .active {
+	margin: 2px;
+	border: 1px solid #F5C62B;
+}
+.calendar .red {
+	color: #C9151D;
+}
+/*汽车报表*/
+.brand-broad .convas {
+	margin: 0 auto;
+	margin-top: 16px;
+	width: 452px;
+	height: 276px;
+}
+.brand-broad table {
+	margin: 0 auto;
+	/*width: auto;*/
+}
+.material-broad table td,.brand-broad table td, .brand-broad table th {
+	height: 23px;
+	text-align: center;
+	font-size:1em;
+	border:1px solid #CECECF;
+}
+.brand-broad table th {font-size:1.1em;}
+.brand-broad table .active-tr {background-color:#F4F5F6;}
+/*.brand-broad table th {width: 64px;}*/
+.brand-broad table .col-1 {
+	width: 64px;
+}
+.brand-broad .convas table td.col-2,.brand-broad table th.col-2 {
+	width: 88px;
+}
+.brand-broad .convas table td.col-3,.brand-broad table th.col-3 {
+	width: 290px;
+}
+.brand-broad table td .text {
+	margin-left: 34px;
+	float: left;
+	line-height: 23px;
+}
+.brand-broad table .bar {
+	position: relative;
+	float: right;
+	margin-right: 18px;
+	margin-top: 10px;
+	width: 168px;
+	height: 4px;
+	background-color: #DDDDDD;
+}
+.brand-broad table i {
+	position: absolute;
+	left: 0;
+	width: 32%;
+	height: 4px;
+	background-color: #7FCBF0;
+}
+.brand-broad table .bar1 i {
+	width: 85%;
+	background-color: #EC6D51;
+	}
+.brand-broad table .bar2 i {
+	width: 74%;
+	background-color: #EF804F;
+}
+.brand-broad table .bar3 i {
+	width: 69%;
+	background-color: #F19F4F;
+}
+.brand-broad table .bar4 i {width: 65%;}
+.brand-broad table .bar5 i {width: 58%;}
+.brand-broad table .bar6 i {width: 53%;}
+.brand-broad table .bar7 i {width: 47%;}
+.brand-broad table .bar8 i {width: 42%;}
+.brand-broad table .bar9 i {width: 37%;}
